@@ -29,11 +29,11 @@ public class Variables : MonoBehaviour
     }
 
 
-    void Cookies(int amount, float money, float cost)   
+    void Cookies(float amount, float money, float cost)   
     {
         float total;
 
-        total = money - cost * amount
+        total = money - cost * amount;
         print(total);
     }
 }
