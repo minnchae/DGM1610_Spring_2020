@@ -11,7 +11,7 @@ public class variableshomework1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        waterAmount * waterCost = waterBottle;
+        Water(waterAmount,waterCost,waterBottle);
         
     }
 
@@ -19,5 +19,14 @@ public class variableshomework1 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void Water(float waterAmount, float waterCost, float waterBottle);
+    {float total;
+
+    total = waterAmount - waterCost * waterBottle;
+    print(total);
+
+
     }
 }
