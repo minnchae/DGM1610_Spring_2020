@@ -21,7 +21,7 @@ public class variableshomework1 : MonoBehaviour
         
     }
 
-    void Water(float waterAmount, float waterCost, float waterBottle);
+    void Water(float waterAmount, float waterCost, float waterBottle)
     {float total;
 
     total = waterAmount - waterCost * waterBottle;
@@ -29,4 +29,5 @@ public class variableshomework1 : MonoBehaviour
 
 
     }
+
 }
