@@ -36,6 +36,7 @@ public class Move : MonoBehaviour
 
     }
     void OnTriggerEnter(Collider other){
+        Debug.Log("You have entered the trigger!");
 
     }
 }
